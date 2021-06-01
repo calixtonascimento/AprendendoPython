@@ -11,10 +11,19 @@ print(var1, var2, var3)
 
 """
 
-# Lista
-lista1 = [1, 2, 3, 4, 5, 6]
-lista2 = ["OláMundo", "Calixto"]
-lista3 = [0, "Ola", "Calixto"]
+# Função
 
-for i in lista2:
-    print(i)
+
+def soma(x, y):
+    return(x+y)
+
+
+def multiplicacao(x, y):
+    return x*y
+
+
+s = soma(2, 3)
+m = multiplicacao(3, 4)
+
+print(s)
+print(m)
