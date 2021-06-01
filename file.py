@@ -11,13 +11,10 @@ print(var1, var2, var3)
 
 """
 
-# Condicional If
-x = 1
-y = 1000000000
+# Lista
+lista1 = [1, 2, 3, 4, 5, 6]
+lista2 = ["OláMundo", "Calixto"]
+lista3 = [0, "Ola", "Calixto"]
 
-if x == y:
-    print("numeros iguais")
-elif y > x:
-    print("y maior que x")
-else:
-    print("numeros diferentes")
+for i in lista2:
+    print(i)
