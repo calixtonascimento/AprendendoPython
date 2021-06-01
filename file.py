@@ -15,7 +15,9 @@ print(var1, var2, var3)
 x = 1
 y = 1000000000
 
-if x > y:
-    print("X é maior que y")
+if x == y:
+    print("numeros iguais")
+elif y > x:
+    print("y maior que x")
 else:
-    print("X não é maior que y")
+    print("numeros diferentes")
