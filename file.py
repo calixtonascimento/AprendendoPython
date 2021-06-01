@@ -17,5 +17,5 @@ y = 1000000000
 
 if x > y:
     print("X é maior que y")
-if y > x:
-    print("Y é maior que x")
+else:
+    print("X não é maior que y")
